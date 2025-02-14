@@ -23,7 +23,14 @@
   display: block;
 }
 
-@media (max-width: 800px) {
+.logo{
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+@media (max-width: 850px) {
   .header {
     flex-direction: column;
     gap: 40px;
@@ -32,5 +39,11 @@
   .header a {
     background: #f5f5f5;
     border-radius: 5px;
+  }
+}
+
+@media (max-width:500px){
+  .logo{
+    font-size: 2rem;
   }
 }
