@@ -21,6 +21,9 @@
   text-decoration: none;
   color: #141414;
   display: block;
+  background-color: #e5e5e550;
+  border-radius: 10px;
+  border: 2px solid #e5e5e5;
 }
 
 .logo{
